@@ -1,7 +1,7 @@
 Result=Succeeded
 Errors=0
 Warnings=32
-Bytes=25295494
-Duration=00:05:45.2923450
+Bytes=25298135
+Duration=00:04:22.6920071
 Development=False
 Scenes=Assets/Scenes/Edit.unity;Assets/Scenes/Flight.unity;Assets/Scenes/SampleScene.unity;Assets/Scenes/Sandbox.unity

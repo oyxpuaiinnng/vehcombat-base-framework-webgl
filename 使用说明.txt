@@ -1,18 +1,16 @@
-VeCombat 网页版（WebGL）· 基础框架版本（2026-11-20 修复版 2）
-
-这不是 Windows 试玩包，而是在浏览器里运行的 WebGL 构建。
+VeCombat 网页版（WebGL）· 基础框架版本（2026-11-20 修复版 3）
 
 【怎么打开】
 1. 必须通过本地 HTTP 服务器打开；直接双击 index.html（file://）不会运行。
-2. 双击同目录的 serve.bat：它会用 Python 在 8080 端口起一个本地服务器并打开浏览器。
-   如果没装 Python，可在本目录执行任意静态服务器，例如：npx serve . 或 VS Code Live Server。
-3. 浏览器打开 http://localhost:8080/ ，等待加载完成（首次加载约 25 MB）。
+2. 双击同目录 serve.bat：用 Python 在 8080 端口起本地服务器并打开浏览器。
+3. 浏览器打开 http://localhost:8080/ ，等待加载完成（首次约 25 MB）。
 
 【2026-11-20 修复】
-- 中文字体：构建携带 Noto Sans SC（SIL OFL 1.1）；编辑页（uGUI）与试飞页（HUD/控制台/试飞面板，IMGUI）都改用随包字体。
-- 场景：构建包含 Edit / Flight / SampleScene / Sandbox，起飞后切 Flight 正常。
+- 中文字体：构建携带 Noto Sans SC（SIL OFL 1.1）；编辑页（uGUI）与试飞页（HUD/控制台/试飞面板，IMGUI）都使用随包字体。
+- 图标字形：把字体不覆盖的 ▸ ▾ ☑ ☰ ✈ ✦ ◈ ⧉ 换成字体覆盖的 ▶ ▼ ✓ ≡ ▲ ★ ◆ ▥，避免方块/空白。
+- 场景：包含 Edit / Flight / SampleScene / Sandbox，起飞后切 Flight 正常。
 - 其余内容与基础框架 2026-11-19 相同（bundleVersion 0.2.0）。
 
 【说明】
-- 非 Development 构建；仍有已知视觉与交互问题，供试玩反馈，不代表最终验收通过。
-- WebGL 的 GPU 由浏览器/系统选择，若用集显请看系统“图形设置”把浏览器设为高性能。
+- 非 Development 构建；仍是试玩快照，不代表最终验收通过。
+- WebGL 的 GPU 由浏览器/系统选择；若用集显，到系统“图形设置”把浏览器设为高性能。
