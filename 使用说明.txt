@@ -1,0 +1,14 @@
+VeCombat 网页版（WebGL）· 基础框架版本 BASE-FRAMEWORK-2026.11.19 · 2026-11-19
+
+这不是 Windows 试玩包，而是在浏览器里运行的 WebGL 构建。
+
+【怎么打开】
+1. 必须通过本地 HTTP 服务器打开；直接双击 index.html（file://）不会运行。
+2. 双击同目录的 serve.bat：它会用 Python 在 8080 端口起一个本地服务器并打开浏览器。
+   如果没装 Python，可在本目录执行任意静态服务器，例如：npx serve . 或 VS Code Live Server。
+3. 浏览器打开 http://localhost:8080/ ，等待加载完成（首次加载约 18 MB）。
+
+【说明】
+- 该构建来自已冻结的基础框架版本（bundleVersion 0.1.0），不是当前内容填充版本。
+- 非 Development 构建；仍有已知视觉与交互问题，供试玩反馈，不代表最终验收通过。
+- WebGL 版在性能与输入上可能弱于 Windows 版；若浏览器报内存/图形错误，请附浏览器名称、版本和截图。

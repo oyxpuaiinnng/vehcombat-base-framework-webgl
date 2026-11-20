@@ -1,0 +1,7 @@
+Result=Succeeded
+Errors=0
+Warnings=1
+Bytes=64562169
+Duration=00:00:09.9653496
+Development=False
+RequestedScenes=Assets/Scenes/Edit.unity
