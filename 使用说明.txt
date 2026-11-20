@@ -1,4 +1,4 @@
-VeCombat 网页版（WebGL）· 基础框架版本（2026-11-20 修复版）
+VeCombat 网页版（WebGL）· 基础框架版本（2026-11-20 修复版 2）
 
 这不是 Windows 试玩包，而是在浏览器里运行的 WebGL 构建。
 
@@ -9,10 +9,10 @@ VeCombat 网页版（WebGL）· 基础框架版本（2026-11-20 修复版）
 3. 浏览器打开 http://localhost:8080/ ，等待加载完成（首次加载约 25 MB）。
 
 【2026-11-20 修复】
-- 中文字体：构建内已携带 Noto Sans SC（SIL OFL 1.1），WebGL 不再依赖系统字体，中文可正常显示。
-- 场景：构建已包含 Edit / Flight / SampleScene / Sandbox，起飞后切 Flight 不再报场景未加载。
+- 中文字体：构建携带 Noto Sans SC（SIL OFL 1.1）；编辑页（uGUI）与试飞页（HUD/控制台/试飞面板，IMGUI）都改用随包字体。
+- 场景：构建包含 Edit / Flight / SampleScene / Sandbox，起飞后切 Flight 正常。
 - 其余内容与基础框架 2026-11-19 相同（bundleVersion 0.2.0）。
 
 【说明】
 - 非 Development 构建；仍有已知视觉与交互问题，供试玩反馈，不代表最终验收通过。
-- WebGL 版在性能与输入上可能弱于 Windows 版；若浏览器报内存/图形错误，请附浏览器名称、版本和截图。
+- WebGL 的 GPU 由浏览器/系统选择，若用集显请看系统“图形设置”把浏览器设为高性能。
