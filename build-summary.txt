@@ -1,7 +1,8 @@
 Result=Succeeded
 Errors=0
-Warnings=32
-Bytes=25298135
-Duration=00:04:22.6920071
+Warnings=1
+Bytes=71135136
+Duration=00:04:15.1831281
 Development=False
 Scenes=Assets/Scenes/Edit.unity;Assets/Scenes/Flight.unity;Assets/Scenes/SampleScene.unity;Assets/Scenes/Sandbox.unity
+Template=PROJECT:VeCombat
